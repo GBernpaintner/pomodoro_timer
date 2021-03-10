@@ -4,10 +4,10 @@ import sys
 import asyncio
 
 
-FOCUS_SOUND = 'sounds/Alesis-Sanctuary-QCard-Tines-Aahs-C4.wav'
-RELAX_SOUND = 'sounds/Alesis-Sanctuary-QCard-Tines-Aahs-C4.wav'
-FOCUS_TIME = 2
-RELAX_TIME = 2
+FOCUS_SOUND = 'sounds/synth.wav'
+RELAX_SOUND = 'sounds/ocarina.wav'
+FOCUS_TIME = 20*60    # seconds
+RELAX_TIME =  5*60    # seconds
 
 
 async def play_sound(filepath):
